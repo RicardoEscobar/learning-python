@@ -1,6 +1,8 @@
 # Variables and expressions
 
 # Declare a variable and initialize it
+variable = 0
+print(variable)
 
 # re-declaring the variable works
 
