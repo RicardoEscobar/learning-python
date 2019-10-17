@@ -7,7 +7,10 @@ def function1():
 # function that takes arguments
 def function2(argument1, argument2):
     print(argument1, " ", argument2)
+
 # function that returns a value
+def cube(number):
+    return number * number * number
 
 # function with default value for an argument
 
