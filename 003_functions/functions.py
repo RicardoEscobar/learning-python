@@ -19,10 +19,11 @@ def power(number, powerOf = 1):
         result = result * number
     return result
 
-
 function1()
 print (function1())
 print(function1)
 function2("argument 1", "argument 2")
 print(cube(3))
+print(power(3))
 print(power(3, 4))
+print(power(powerOf = 4, number = 3))
