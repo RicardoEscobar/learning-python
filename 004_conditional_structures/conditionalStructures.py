@@ -13,7 +13,9 @@ def main():
 
     print(string)
 
-# conditional statements let you use "a if C else b"
+    # conditional statements let you use "a if C else b"
+    string = "x is lesser than y" if (x < y) else "x is greater or the same as y"
+    print(string)
 
 if __name__ == "__main__":
     main()
