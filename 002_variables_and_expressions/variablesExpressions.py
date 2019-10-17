@@ -9,6 +9,6 @@ variable = "abc"
 print(variable)
 
 # ERROR: variables of different types cannot be combined
-print("This is a string" + 123)
+print("This is a string " + str(123))
 
 # Global vs. local variables in functions
