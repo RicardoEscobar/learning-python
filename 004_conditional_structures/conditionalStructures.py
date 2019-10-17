@@ -1,11 +1,15 @@
 # Example file for working with conditional statements
 
 def main():
-    x, y = 1000, 100
+    x, y = 100, 100
 
     # conditional flow uses  if, elif, else
-    if (x > y):
+    if (x < y):
         string = "x is lesser than y"
+    elif (x == y):
+        string = "x is the same as y"
+    else:
+        string = "x is greater than y"
 
     print(string)
 
