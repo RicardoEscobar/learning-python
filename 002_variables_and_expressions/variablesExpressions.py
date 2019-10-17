@@ -5,6 +5,8 @@ variable = 0
 print(variable)
 
 # re-declaring the variable works
+variable = "abc"
+print(variable)
 
 # ERROR: variables of different types cannot be combined
 
