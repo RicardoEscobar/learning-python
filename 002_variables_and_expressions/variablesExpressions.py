@@ -13,7 +13,8 @@ print("This is a string " + str(123))
 
 # Global vs. local variables in functions
 def someFunction():
-    variable = "local variable"
+    global variable
+    variable = "new global variable"
     print(variable)
 
 someFunction()
