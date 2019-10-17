@@ -5,7 +5,7 @@ def main():
 
     # conditional flow uses  if, elif, else
     if (x > y):
-        string = "c is lesser than y"
+        string = "x is lesser than y"
 
     print(string)
 
