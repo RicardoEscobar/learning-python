@@ -13,9 +13,16 @@ def cube(number):
     return number * number * number
 
 # function with default value for an argument
+def power(number, powerOf = 1):
+    result = 1
+    for loop_counter in range(powerOf):
+        result = result * number
+    return result
+
 
 function1()
 print (function1())
 print(function1)
 function2("argument 1", "argument 2")
 print(cube(3))
+print(power(3, 4))
