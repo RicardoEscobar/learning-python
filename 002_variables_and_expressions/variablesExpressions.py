@@ -22,4 +22,9 @@ print(variable)
 
 # deletes variable Raises ERROR variable not defined.
 del variable
-print(variable)
+try:
+    variable
+except NameError:
+    print("well, it WASN'T defined after all!")
+else:
+    print("sure, it was defined.")
