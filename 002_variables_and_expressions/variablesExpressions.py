@@ -19,3 +19,7 @@ def someFunction():
 
 someFunction()
 print(variable)
+
+#  
+del variable
+print(variable)
