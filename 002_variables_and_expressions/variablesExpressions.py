@@ -20,6 +20,6 @@ def someFunction():
 someFunction()
 print(variable)
 
-#  
+# deletes variable Raises ERROR variable not defined.
 del variable
 print(variable)
