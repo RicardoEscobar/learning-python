@@ -19,6 +19,13 @@ def power(number, powerOf = 1):
         result = result * number
     return result
 
+# function with variable number of arguments
+def multi_add(*arguments):
+    result = 0
+    for number in arguments:
+        result = result + number
+    return result
+
 function1()
 print (function1())
 print(function1)
@@ -27,3 +34,4 @@ print(cube(3))
 print(power(3))
 print(power(3, 4))
 print(power(powerOf = 4, number = 3))
+print(multi_add(2, 15, 23, 9, 59, 38))
