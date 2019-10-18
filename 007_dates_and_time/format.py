@@ -21,8 +21,8 @@ def main():
     #### Time Formatting ####
 
     # %I/%H - 12/24 Hour, %M - minute, %S - second, %p - locale's AM/PM
-
-
+    print(now.strftime("Current time: %I:%M:%S %p"))
+    print(now.strftime("24-hour time: %H:%M"))
 
 if __name__ == "__main__":
     main()
