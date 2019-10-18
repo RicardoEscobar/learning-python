@@ -9,6 +9,8 @@ def main():
         number_x = number_x + 1
 
     # define a for loop
+    for number_x in range(5, 10):
+        print(number_x)
 
     # use a for loop over a collection
 
