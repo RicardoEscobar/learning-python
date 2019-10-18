@@ -1,7 +1,4 @@
-#
 # Example file for working with date information
-#
-
 
 def main():
   print("main")
@@ -22,6 +19,5 @@ def main():
   # Get the current time
 
 
-  
 if __name__ == "__main__":
   main()
