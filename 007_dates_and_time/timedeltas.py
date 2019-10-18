@@ -32,9 +32,10 @@ april_fools_day = date(today.year, 4, 1)
 # use date comparison to see if April Fool's has already gone for this year
 # if it has, use the replace() function to get the date for next year
 if april_fools_day < today:
-    print("April Fool's day already went by %d days ago" % ((today - april_fools_day).day))
+    print("April Fool's day already went by %d days ago" % ((today - april_fools_day).days))
     april_fools_day = april_fools_day.replace(year = today.year + 1)
 
 # Now calculate the amount of time until April Fool's Day
-
+time_to_april_fools_day = april_fools_day - today
+print("It's just ", time_to_april_fools_day, "days until April Fool's day")
 
