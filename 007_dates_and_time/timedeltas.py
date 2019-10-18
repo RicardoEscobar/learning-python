@@ -17,7 +17,8 @@ print("today is: " + str(now))
 print("One year from now it will be: " + str(now + timedelta(days = DAYS_IN_YEAR)))
 
 # create a timedelta that uses more than one argument
-
+print("In 3 days and 5 weeks, it will be " +
+    str(now + timedelta(days = 3, weeks = 5)))
 
 # calculate the date 1 week ago, formatted as a string
 
