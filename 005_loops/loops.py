@@ -30,5 +30,9 @@ def main():
         if (number_x == 7): break
         print(number_x)
 
+    for number_x in range(5, 10):
+        if (number_x % 2 == 0): continue
+        print(number_x)
+
 if __name__ == "__main__":
     main()
