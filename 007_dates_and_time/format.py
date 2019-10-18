@@ -19,7 +19,7 @@ def main():
     print(now.strftime("Locale time: %X"))
 
     #### Time Formatting ####
-    
+
     # %I/%H - 12/24 Hour, %M - minute, %S - second, %p - locale's AM/PM
 
 
