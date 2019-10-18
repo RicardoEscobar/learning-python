@@ -4,22 +4,22 @@
 from datetime import date, time, datetime
 
 def main():
-  print("main")
-  ## DATE OBJECTS
-  # Get today's date from the simple today() method from the date class
+    print("main")
+    ## DATE OBJECTS
+    # Get today's date from the simple today() method from the date class
 
 
-  # print out the date's individual components
+    # print out the date's individual components
 
-  
-  # retrieve today's weekday (0=Monday, 6=Sunday)
+    
+    # retrieve today's weekday (0=Monday, 6=Sunday)
 
-  
-  ## DATETIME OBJECTS
-  # Get today's date from the datetime class
+    
+    ## DATETIME OBJECTS
+    # Get today's date from the datetime class
 
 
-  # Get the current time
+    # Get the current time
 
 
 if __name__ == "__main__":
