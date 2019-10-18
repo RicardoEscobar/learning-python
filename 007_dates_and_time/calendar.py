@@ -30,3 +30,18 @@ for day in calendar.day_name:
 # a team meeting on the first Friday of every month.
 # To figure out what days that would be for each month,
 # we can use this script:
+print ("Team meetings will be on:")
+for month in range(1,13):
+  # returns an array of weeks that represent the month
+  calendar_object = calendar.monthcalendar(2019, month)
+  # The first Friday has to be within the first two weeks
+  weekone = calendar_object[0]
+  weektwo = calendar_object[1]
+   
+  if weekone[calendar.FRIDAY] != 0:
+    meetday = weekone[calendar.FRIDAY]
+  else:
+    # if the first friday isn't in the first week, it must be in the second
+    meetday = weektwo[calendar.FRIDAY]
+      
+  print ("%10s %2d" % (calendar.month_name[month], meetday))
