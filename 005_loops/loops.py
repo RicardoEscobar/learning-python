@@ -34,5 +34,18 @@ def main():
         if (number_x % 2 == 0): continue
         print(number_x)
 
+    # using the enumerate() function to get index
+    days = [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+    ]
+    for index, day in enumerate(days):
+        print(index, day)
+
 if __name__ == "__main__":
     main()
