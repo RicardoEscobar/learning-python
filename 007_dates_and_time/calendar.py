@@ -15,7 +15,8 @@ print(calendar_string)
 
 # loop over the days of a month
 # zeroes mean that the day of the week is in an overlapping month
-
+for iterator in calendar_object.itermonthdays(2019, 8):
+    print(iterator)
 
 # The Calendar module provides useful utilities for the given locale,
 # such as the names of days and months in both full and abbreviated forms
