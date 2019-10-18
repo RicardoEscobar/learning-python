@@ -2,6 +2,9 @@
 
 from datetime import date, time, datetime, timedelta
 
+# constant to avoid magic number
+DAYS_IN_YEAR = 365
+
 # construct a basic timedelta and print it
 print(timedelta(days = 365, hours = 5, minutes = 1))
 
@@ -11,7 +14,7 @@ print("today is: " + str(now))
 
 
 # print today's date one year from now
-
+print("One year from now it will be: " + str(now + timedelta(days = DAYS_IN_YEAR)))
 
 # create a timedelta that uses more than one argument
 
