@@ -9,12 +9,14 @@ calendar_string = calendar_object.formatmonth(2019, 1, 0, 0)
 print(calendar_string)
 
 # create an HTML formatted calendar
-
+html_calendar_object = calendar.HTMLCalendar(calendar.MONDAY)
+calendar_string = html_calendar_object.formatmonth(2019, 1)
+print(calendar_string)
 
 # loop over the days of a month
 # zeroes mean that the day of the week is in an overlapping month
 
-  
+
 # The Calendar module provides useful utilities for the given locale,
 # such as the names of days and months in both full and abbreviated forms
 
