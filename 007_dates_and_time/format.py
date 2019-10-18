@@ -14,7 +14,7 @@ def main():
     print(now.strftime("The current date (formated) is: %a, %d %B, %y"))
 
     # %c - locale's date and time, %x - locale's date, %X - locale's time
-
+    print(now.strftime("Locale date and time: %c"))
 
     #### Time Formatting ####
     
