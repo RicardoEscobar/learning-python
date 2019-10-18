@@ -1,7 +1,7 @@
 # Example file for working with Calendars
 
 # import the calendar module
-
+import calendar
 
 # create a plain text calendar
 
