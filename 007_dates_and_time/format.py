@@ -11,6 +11,7 @@ def main():
     
     # %y/%Y - Year, %a/%A - weekday, %b/%B - month, %d - day of month
     print(now.strftime("The current year is: %Y"))
+    print(now.strftime("The current date (formated) is: %a, %d %B, %y"))
 
     # %c - locale's date and time, %x - locale's date, %X - locale's time
 
