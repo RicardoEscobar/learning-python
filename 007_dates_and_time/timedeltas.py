@@ -1,6 +1,4 @@
-#
 # Example file for working with timedelta objects
-#
 
 from datetime import date, time, datetime, timedelta
 
