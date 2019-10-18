@@ -1,7 +1,7 @@
 # Example file for working with date information
 
 # Imports 'datetime' library
-from datetime import date
+from datetime import date, time, datetime
 
 def main():
   print("main")
