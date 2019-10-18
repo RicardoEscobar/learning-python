@@ -23,7 +23,8 @@ def main():
     print("The current date and time is ", today)
 
     # Get the current time
-
+    time = datetime.time(datetime.now())
+    print(time)
 
 if __name__ == "__main__":
     main()
