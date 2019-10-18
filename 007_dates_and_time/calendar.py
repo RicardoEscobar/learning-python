@@ -20,7 +20,11 @@ for iterator in calendar_object.itermonthdays(2019, 8):
 
 # The Calendar module provides useful utilities for the given locale,
 # such as the names of days and months in both full and abbreviated forms
+for name in calendar.month_name:
+  print (name)
 
+for day in calendar.day_name:
+  print (day)
 
 # Calculate days based on a rule: For example, consider
 # a team meeting on the first Friday of every month.
