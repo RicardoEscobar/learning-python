@@ -1,5 +1,8 @@
 # Example file for working with date information
 
+# Imports 'datetime' library
+from datetime import date
+
 def main():
   print("main")
   ## DATE OBJECTS
