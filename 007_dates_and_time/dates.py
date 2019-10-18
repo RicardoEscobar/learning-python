@@ -19,7 +19,8 @@ def main():
 
     ## DATETIME OBJECTS
     # Get today's date from the datetime class
-
+    today = datetime.now()
+    print("The current date and time is ", today)
 
     # Get the current time
 
