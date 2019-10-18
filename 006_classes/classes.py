@@ -10,6 +10,7 @@ class myClass():
 # Creates a child class that is based from "myClass"
 class anotherClass(myClass):
     def method1(self):
+        myClass.method1(self)
         print("anotherClass method1")
     
     def method2(self, someString):
