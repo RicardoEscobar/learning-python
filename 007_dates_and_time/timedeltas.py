@@ -21,7 +21,9 @@ print("In 3 days and 5 weeks, it will be " +
     str(now + timedelta(days = 3, weeks = 5)))
 
 # calculate the date 1 week ago, formatted as a string
-
+time_ago = datetime.now() - timedelta(weeks = 1)
+time_ago_string = time_ago.strftime("%A %B %d, %Y")
+print("One week ago it was: " + time_ago_string)
 
 ### How many days until April Fools' Day?
 
