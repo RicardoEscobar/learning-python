@@ -4,7 +4,9 @@
 import calendar
 
 # create a plain text calendar
-
+calendar_object = calendar.TextCalendar(calendar.SUNDAY)
+calendar_string = calendar_object.formatmonth(2019, 1, 0, 0)
+print(calendar_string)
 
 # create an HTML formatted calendar
 
