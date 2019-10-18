@@ -2,7 +2,7 @@
 # Example file for working with timedelta objects
 #
 
-from datetime import date, time, datetime
+from datetime import date, time, datetime, timedelta
 
 # construct a basic timedelta and print it
 
