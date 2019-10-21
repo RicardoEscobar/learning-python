@@ -3,6 +3,7 @@
 import os
 from os import path
 import shutil
+from shutil import make_archive
 
 
 def main():
@@ -24,10 +25,13 @@ def main():
         os.rename(file_name, new_file_name)
 
         # now put things into a ZIP archive
-
+        root_dir, tail = path.split(source)
+        base_name = "archive"
+        archive_format = "zip"
+        shutil.make_archive(base_name, archive_format, root_dir)
 
         # more fine-grained control over ZIP files
 
 
 if __name__ == "__main__":
-  main()
+    main()
