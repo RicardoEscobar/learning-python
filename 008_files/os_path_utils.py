@@ -21,9 +21,11 @@ def main():
 
     # Work with file paths
     print("Item path: " + str(path.realpath(file_name)))
+    print("Item path and name: " + str(path.split(path.realpath(file_name))))
 
     # Get the modification time
-
+    time_of_modification = time.ctime(path.getmtime(file_name))
+    print("Time of modification: " + time_of_modification)
 
     # Calculate how long ago the item was modified
 
