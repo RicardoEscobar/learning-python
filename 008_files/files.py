@@ -13,7 +13,7 @@ def main():
 
 
     # close the file when done
-
+    file_object.close()
 
     # Open the file back up and read the contents
 
