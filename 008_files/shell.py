@@ -32,7 +32,9 @@ def main():
         shutil.make_archive(base_name, archive_format, root_dir)
 
         # more fine-grained control over ZIP files
-
+        test_zip_file = "test_zip.zip"
+        with ZipFile(test_zip_file, "w") as new_zip:
+            new_zip.write(file_name, destiny)
 
 if __name__ == "__main__":
     main()
