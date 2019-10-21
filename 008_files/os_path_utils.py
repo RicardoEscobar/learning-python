@@ -32,7 +32,8 @@ def main():
 
     # Calculate how long ago the item was modified
     total_time = datetime.datetime.now() - datetime.datetime.fromtimestamp(modification_timestamp)
-
+    print ("It has been " + str(total_time) + " since the file was modified")
+    print ("Or, " + str(total_time.total_seconds()) + " seconds")
 
 
 if __name__ == "__main__":
