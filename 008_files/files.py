@@ -2,19 +2,19 @@
 
 
 def main():  
-  # Open a file for writing and create it if it doesn't exist
+    # Open a file for writing and create it if it doesn't exist
+    file_object = open("text_file.txt", "w+")
+
+    # Open the file for appending text to the end
 
 
-  # Open the file for appending text to the end
+    # write some lines of data to the file
 
 
-  # write some lines of data to the file
+    # close the file when done
 
 
-  # close the file when done
-
-
-  # Open the file back up and read the contents
+    # Open the file back up and read the contents
 
 
 if __name__ == "__main__":
