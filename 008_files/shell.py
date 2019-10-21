@@ -10,7 +10,7 @@ def main():
   file_name = "textfile.txt"
     if path.exists(file_name):
         # get the path to the file in the current directory
-
+        source = path.realpath(file_name)
 
         # let's make a backup copy by appending "bak" to the name
 
