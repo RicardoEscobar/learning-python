@@ -3,7 +3,8 @@
 
 def main():  
     # Open a file for writing and create it if it doesn't exist
-    file_object = open("text_file.txt", "w+")
+    #file_object = open("text_file.txt", "w+")
+    file_object = open("text_file.txt", "a")
 
     # Open the file for appending text to the end
     for loop_counter in range(10):
