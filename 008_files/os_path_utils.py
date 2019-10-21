@@ -20,14 +20,18 @@ def main():
     print("Item is a directory: " + str(path.isdir(file_name)))
 
     # Work with file paths
+    modification_timestamp = path.getmtime(file_name)
+    
     print("Item path: " + str(path.realpath(file_name)))
     print("Item path and name: " + str(path.split(path.realpath(file_name))))
 
     # Get the modification time
-    time_of_modification = time.ctime(path.getmtime(file_name))
+    time_of_modification = time.ctime(modification_timestamp)
     print("Time of modification: " + time_of_modification)
-    print(datetime.datetime.fromtimestamp(path.getmtime(file_name)))
+    print(datetime.datetime.fromtimestamp(modification_timestamp))
+
     # Calculate how long ago the item was modified
+    total_time = datetime.datetime.now() - datetime.datetime.fromtimestamp(modification_timestamp)
 
 
 
