@@ -6,7 +6,8 @@ def main():
     file_object = open("text_file.txt", "w+")
 
     # Open the file for appending text to the end
-
+    for loop_counter in range(10):
+        file_object.write("This is line: " + str(loop_counter) + "\r\n")
 
     # write some lines of data to the file
 
