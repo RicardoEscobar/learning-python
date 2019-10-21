@@ -16,9 +16,13 @@ def main():
     file_object.close()
 
     # Open the file back up and read the contents
+    file_object = open("text_file.txt", "r")
     if file_object.mode == 'r':
-        contents = file_object.read()
-        print(contents)
+        #contents = file_object.read()
+        file_lines = file_object.readlines()
+        for text_line in file_lines:
+            print(text_line)
+        #print(contents)
 
 if __name__ == "__main__":
     main()
