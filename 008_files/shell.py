@@ -7,7 +7,8 @@ import shutil
 
 def main():
   # make a duplicate of an existing file
-    if path.exists("textfile.txt"):
+  file_name = "textfile.txt"
+    if path.exists(file_name):
         # get the path to the file in the current directory
 
 
