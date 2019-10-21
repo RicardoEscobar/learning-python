@@ -8,11 +8,14 @@ import time
 
 
 def main():
+    # Refactor: declare variable to hold file name
+    file_name = "text_file.txt"
+
     # Print the name of the OS
-    print(os.name)
+    print("Operative System: " + os.name)
 
     # Check for item existence and type
-
+    print("Item exists: " + str(path.exists(file_name)))
 
     # Work with file paths
 
