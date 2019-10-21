@@ -26,7 +26,7 @@ def main():
     # Get the modification time
     time_of_modification = time.ctime(path.getmtime(file_name))
     print("Time of modification: " + time_of_modification)
-
+    print(datetime.datetime.fromtimestamp(path.getmtime(file_name)))
     # Calculate how long ago the item was modified
 
 
