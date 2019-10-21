@@ -20,7 +20,7 @@ def main():
     print("Item is a directory: " + str(path.isdir(file_name)))
 
     # Work with file paths
-
+    print("Item path: " + str(path.realpath(file_name)))
 
     # Get the modification time
 
