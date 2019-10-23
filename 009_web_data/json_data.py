@@ -23,10 +23,18 @@ def printResults(data):
   print ("--------------\n")
 
   # print the events that only have a magnitude greater than 4
-
+  for i in theJSON["features"]:
+    if i["properties"]["mag"] >= 4.0:
+      print ("%2.1f" % i["properties"]["mag"], i["properties"]["place"])
+  print ("--------------\n")
       
   # print only the events where at least 1 person reported feeling something
-
+  print ("\n\nEvents that were felt:")
+  for i in theJSON["features"]:
+    feltReports = i["properties"]["felt"]
+    if (feltReports != None):
+      if (feltReports > 0):
+        print ("%2.1f" % i["properties"]["mag"], i["properties"]["place"], " reported " + str(feltReports) + " times")
   
 def main():
   # define a variable to hold the source URL
