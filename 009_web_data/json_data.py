@@ -12,7 +12,7 @@ def printResults(data):
   if "title" in theJSON["metadata"]:
     print (theJSON["metadata"]["title"])
   
-  # output the number of events, plus the magnitude and each event name  
+  # output the number of events, plus the magnitude and each event name
   count = theJSON["metadata"]["count"]
   print (str(count) + " events recorded")
   print ("--------------\n")
